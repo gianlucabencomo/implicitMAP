@@ -33,7 +33,7 @@ def init_dict(
     """Set up dictionary for running experiments."""
     res = {"EKF": []}
     res["UKF"] = []
-    # res["PF"] = []
+    res["PF"] = []
     for i in steps:
         if i == 1:
             continue  # this is just an EKF

@@ -202,7 +202,7 @@ class Lorenz:
 
     def Q(self, x: np.array, t: float) -> np.array:
         """Process noise matrix."""
-        return np.eye(self.n) * 10.0 * self.dt
+        return np.eye(self.n) * 20.0 * self.dt
 
     def R(self, x: np.array, t: float) -> np.array:
         """Measurement noise matrix."""
@@ -211,7 +211,7 @@ class Lorenz:
     def forward(
         self,
         T: int,
-        q: float = 10.0,
+        q: float = 20.0,
         r: float = 2.0,
         n_em: int = 10000,
     ) -> Tuple[np.array, np.array]:

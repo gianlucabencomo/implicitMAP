@@ -34,7 +34,7 @@ def main(
     seed: int = 0,
     T: int = 200,
     n_particles: int = 1000,
-    system: str = "grw",
+    system: str = "grw", # 'nonlinear' or 'lorenz'
     optimizer: str = "Santos",
     plot: bool = False,
     verbose: bool = False,
