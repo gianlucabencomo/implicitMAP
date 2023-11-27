@@ -1,4 +1,4 @@
-Code to accompany "Implicit Maximum a Posteriori Filtering via Adaptive Optimization" by Gianluca Bencomo, Jake Snell, and Tom Griffiths (under review at ICLR 2023). We demonstrate how the stochastic filtering problem, typically solved explicitly via a Bayesian filter, can be solved implicitly via specifying an optimizer (see Figure below for intuition). All results and figures in our paper can be reproduced using this repository.
+Code to accompany "Implicit Maximum a Posteriori Filtering via Adaptive Optimization" by Gianluca Bencomo, Jake Snell, and Tom Griffiths (under review at ICLR 2024). We demonstrate how the stochastic filtering problem, typically solved explicitly via a Bayesian filter, can be solved implicitly via specifying an optimizer (see Figure below for intuition). All results and figures in our paper can be reproduced using this repository.
 
 ![](nonlinear/img/explantory.png)
 
